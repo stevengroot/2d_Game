@@ -29,10 +29,10 @@ function AppCore::create( %this )
     exec("./scripts/openal.cs");
     
     // Initialize the canvas
-    initializeCanvas("Torque 2D");
+    initializeCanvas("Arria's Twerk Fantasy"); // name of the game.
     
     // Set the canvas color
-    Canvas.BackgroundColor = "CornflowerBlue";
+    Canvas.BackgroundColor = "DarkBlue";
     Canvas.UseBackgroundColor = true;
     
     // Initialize audio
